@@ -24,7 +24,7 @@ function getAnonName(firstName) {
   const promiseName = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (firstName) {
-        const fulName = `${firstName} Doe`
+        const fulName = `${firstName} Doe`;
         resolve(fulName)
       } else {
         const error = new Error('You did not pass in a first name')
